@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/app.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% if site.custom_css %}<link rel="stylesheet" href="{{ site.custom_css | append: site.github.build_revision | relative_url }}">{% endif %}
+    {% if site.custom_css %}<link rel="stylesheet" href="{{ site.custom_css | relative_url }}">{% endif %}
   </head>
   <body>
     {% include navbar.html %}
